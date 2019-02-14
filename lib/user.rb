@@ -2,5 +2,6 @@ class User
   attr_accessor :first_name , :last_name
   
   def learn 
-    Student.
+    Student.learn
+  end
 end
